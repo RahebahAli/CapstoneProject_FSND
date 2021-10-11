@@ -1,0 +1,161 @@
+{
+	"info": {
+		"_postman_id": "3028962f-2621-478e-b854-0d56656e0975",
+		"name": "movie-Actors",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "visitor",
+			"item": [
+				{
+					"name": "/companies",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://127.0.0.1:5000/companies"
+					},
+					"response": []
+				},
+				{
+					"name": "/movies",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://127.0.0.1:5000/movies"
+					},
+					"response": []
+				},
+				{
+					"name": "/1/movies",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://127.0.0.1:5000/1/movies"
+					},
+					"response": []
+				},
+				{
+					"name": "/1/movies/1",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"url": "http://127.0.0.1:5000/1/movies/1"
+					},
+					"response": []
+				},
+				{
+					"name": "/1/movies/1",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://127.0.0.1:5000/1/movies/1"
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": {
+					"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkpLZzV5c1JDTXc0MFlRZW93X1NhOCJ9.eyJpc3MiOiJodHRwczovL2Rldi1wdWEwYTI4OC51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NjE2MjA0Njc3MmVmYTgwMDY5Y2JhZGVmIiwiYXVkIjoibW92aWUtQWN0b3JzIiwiaWF0IjoxNjMzODc0MzI2LCJleHAiOjE2MzM4ODE1MjYsImF6cCI6IlI0RmNoR0ZEbndhZ0VzYm5lWXFwOTU5SFBMcTlCZ21NIiwic2NvcGUiOiIiLCJwZXJtaXNzaW9ucyI6WyJnZXQ6Y29tcGFuaWVzIiwiZ2V0Om1vdmllcyJdfQ.R6wZr9jHRnvTQ-_HFspkEbNePEAgMI_qjTavO7Pgw2_WcYuL9mBThegL7AWgmd8-uhr8n3u35XNShiD7SQkI-lKrSTHDUxDERn5qsxaiG4TeDhvjhY0LsPeDblexi_P1EJMzhPCMRACOqoTS_LbCp5ysDPMUlEI9vzLMwBjygtU2ACrolRJXpEF7JKQ-Xk2GS7tBQZjd3KXOdjVA6pIZzA-qBXdxzZXVYgX0PQm11K17IQNFNuBrBcKv7Q7F5G7Brl2Hj9-Yc3GNhJarulnUAY6p2hy3MXJaZzzNQCErtKxUFn4BJ-fWxNahb9Jc0F73tW46aQ4KY7PcAUvPwHdTTQ"
+				}
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Director",
+			"item": [
+				{
+					"name": "/companies",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://127.0.0.1:5000/companies"
+					},
+					"response": []
+				},
+				{
+					"name": "/movies",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://127.0.0.1:5000/movies"
+					},
+					"response": []
+				},
+				{
+					"name": "/1/movies",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://127.0.0.1:5000/1/movies"
+					},
+					"response": []
+				},
+				{
+					"name": "/1/movies/1",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"url": "http://127.0.0.1:5000/1/movies/1"
+					},
+					"response": []
+				},
+				{
+					"name": "/1/movies/1",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://127.0.0.1:5000/1/movies/1"
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": {
+					"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkpLZzV5c1JDTXc0MFlRZW93X1NhOCJ9.eyJpc3MiOiJodHRwczovL2Rldi1wdWEwYTI4OC51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NjE2MjA0Njc3MmVmYTgwMDY5Y2JhZGVmIiwiYXVkIjoibW92aWUtQWN0b3JzIiwiaWF0IjoxNjMzODc0NTUwLCJleHAiOjE2MzM4ODE3NTAsImF6cCI6IlI0RmNoR0ZEbndhZ0VzYm5lWXFwOTU5SFBMcTlCZ21NIiwic2NvcGUiOiIiLCJwZXJtaXNzaW9ucyI6WyJkZWxldGU6bW92aWUiLCJnZXQ6Y29tcGFuaWVzIiwiZ2V0Om1vdmllcyIsInBhdGNoOm1vdmllIiwicG9zdDptb3ZpZSJdfQ.AgLjp_BiPvokwhpNne2yBVl8vNQCkglEcFIk84CmLxSthyXzB7naq2jZ8mARub9r2Q8Izme_AMnSn_KbWthURaUOWc7rDCaiM9uLmlPA3CIjm_koqzgx86ey7hQ9H0a_zPKQ1pmfwPw3ez1eLqHSGnt7YjrPg2OXyXkj9dmug4__hMwMwXZ1PUTRcaWIcu9rUTeif5OJHEqEsU9Wle3Rw87e0LhPJzecT0fFucl6DRIcsmjsBNbhHo4_lzKOcuKPOWaXsgiI--WT1NyV-5coaxMYXpDrEjmW2wpxbMLHC8a0hW1N25gK7ByP9ln9Y-iFpIazki-1hbIauLLL0OD1-Q"
+				}
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		}
+	]
+}
