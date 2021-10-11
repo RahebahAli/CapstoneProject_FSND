@@ -36,17 +36,9 @@ This will install all of the required packages we selected within the `requireme
 ## API Endpoint
 GET ```/companies ```
 - View all companies
-```
-{'1' : "Science",
-'2' : "Art",
-'3' : "Geography",
-'4' : "History",
-'5' : "Entertainment",
-'6' : "Sports"}
-```
+
 GET ```/movies ```
 - Return movies 
-
 
 DELETE ```/${id}/movies/${id} ```
 - Delete a specified movie by using the ID.
