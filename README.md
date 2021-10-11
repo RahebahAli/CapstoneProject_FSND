@@ -111,9 +111,8 @@ Example:
 ## Testing
 To run the tests, run
 ```
-dropdb trivia_test
-createdb trivia_test
-psql trivia_test < trivia.psql
+dropdb moviesactors_test
+createdb moviesactors_test
 python test.py
 ```
 
