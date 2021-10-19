@@ -1,5 +1,6 @@
-# CapstoneProject_FSND
-
+# Company and Movies project
+Company and Movies project is a website for displaying a group of movies and its producing company.
+It is the last project from Full-Stack Web Developer Nanodegree.
 
 ## Getting Started
 
@@ -111,3 +112,5 @@ python test.py
 ## Deblay on Heroku
 Link: https://movie-actors.herokuapp.com/
 
+## Author
+Rahibah Ali Alflih
