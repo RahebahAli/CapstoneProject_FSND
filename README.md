@@ -1,4 +1,5 @@
 # Company and Movies project
+## Introduction
 Company and Movies project is a website for displaying a group of movies and its producing company.
 It is the last project from Full-Stack Web Developer Nanodegree.
 
