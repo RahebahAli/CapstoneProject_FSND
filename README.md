@@ -53,7 +53,6 @@ The endpoint handles seven errors:
 - 405: Method Not Alowed
 - 406: Not acceptable
 - 422: Not Processable
-- 500: Server error
 
 Example:
 ```
